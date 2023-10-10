@@ -1,0 +1,198 @@
+body {
+    background-color: rgb(221, 221, 221);
+    overflow-x: hidden;
+}
+
+.nav {
+    width:101vw;
+    height:7vh;
+    background-color: #FFBD59;
+    margin-left: -1%;
+    margin-top:-1%;
+    display: flex;
+    box-shadow: 3px 3px rgb(187, 138, 69);
+}
+
+.item {
+    width:25.25vw;
+    height:8vh;
+    text-align: center;
+    display:flex;
+}
+.item:hover {
+    cursor:pointer;
+    background-color: #ce9135;
+}
+
+.navtext {
+    vertical-align: middle;
+    align-self: center;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.items {
+    display:flex;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, p {
+    font-family: sans-serif;
+    text-shadow: 1px 1px rgb(216, 210, 203);
+}
+.paragraph {
+    background-color: rgb(230, 230, 230);
+    box-shadow:3px 3px #6d5026;
+    margin-bottom: 1%;
+    border-radius:6px;
+}
+
+.quote {
+    background-color: #FFBD59;
+}
+
+.devs {
+    display:flex;
+    margin-top:10vh;
+}
+
+.devcard {
+    width:20vw;
+    height:50vh;
+    margin-left:9vw;
+    border-radius: 15px;
+    background-color: #FFBD59;
+    box-shadow: 3px 3px #6d5026;
+}
+
+.devimg {
+    width: 19vw;
+    height:38vh;
+    background-color: wheat;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#km {
+    background-image: url("../imgs/KM.png");
+}
+#kr {
+    background-image: url("../imgs/KR.png");
+}
+#jdf {
+    background-image: url("../imgs/JDF.png");
+}
+#kr, #km, #jdf {
+    
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-top:5%;
+}
+.devs:nth-child(2):nth-child(1) {
+    font-size:x-large
+}
+
+.devname {
+    text-align:center;
+    padding-top:4%;
+    padding-bottom:8.6%;
+    background-color: #eeb054;
+    margin-top: 0%;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.fineprint {
+    width:101vw;
+    height:30vh;
+    display:flex;
+    align-items: flex-end;
+}
+.detailcontainer {
+    width:101vw;
+}
+.contactdetail {
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+.devdetail {
+    margin-top:-14%;
+    text-align: center;
+}
+
+.shop {
+    width:85vw;
+    height:70vh;
+    background-color: yellow;
+    margin:auto;
+    margin-top:15vh;
+}
+
+.toprow {
+    width:100%;
+    height:7vh;
+    background-color: #eeb054;
+}
+.bottomportion {
+    width:100%;
+    height:63vh;
+    background-color: #FFBD59;
+}
+.itemcard {
+    width:15vw;
+    height:30vh;
+    background-color: #e29c35;
+}
+.itemimg {
+    width:14vw;
+    height:20vh;
+    margin:auto;
+}
+
+.itemname {
+    font-family:sans-serif;
+}
+
+#GR36 {
+    background-image: url(../imgs/GR36.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-top:5%;
+}
+#RX66 {
+    background-image: url(../imgs/rx66.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-top:5%;
+}
+.buyitem {
+    width:7vw;
+    height:5vh;
+    border:none;
+    border-radius:8px;
+}
+
+.buyitem:hover{
+    cursor:pointer;
+}
+
+.itemcard {
+    margin-right:13vw;
+    margin-top:3vh;
+}
+
+.sitems {
+    display:flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    max-height: 63vh;
+}
+
+.toprow .landingTitle {
+    text-align: center;
+}
